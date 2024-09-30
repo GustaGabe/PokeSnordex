@@ -1,0 +1,15 @@
+.sidebar {
+    &__container {
+      background-color: black;
+      max-width: 300px;
+      width: 200px;
+      height: 100vh;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(0);
+
+      &.closed {
+        transform: translateX(-100%);
+      }
+    }
+  }
+  
