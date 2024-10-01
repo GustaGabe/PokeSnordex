@@ -1,9 +1,9 @@
-.layout{
-    &__container{
-        display: flex;
-        flex-direction: row;
-    }
-    &__content{
-        margin-left: 60px;
-    }
+.layout {
+  &__container {
+    display: flex;
+    flex-direction: row;
+  }
+  &__content {
+    margin-left: 60px;
+  }
 }

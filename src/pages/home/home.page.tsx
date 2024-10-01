@@ -1,5 +1,1 @@
-export const Home = () =>(
-    <div>
-        Hello world
-    </div>
-)
+export const Home = () => <div>Hello world</div>
